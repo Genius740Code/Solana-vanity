@@ -1,0 +1,30 @@
+{
+  "name": "solana-vanity-generator",
+  "version": "1.0.0",
+  "description": "Ultra-fast Solana vanity address generator with GPU acceleration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "install-gpu": "npm install gpu.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "bs58": "^5.0.0"
+  },
+  "optionalDependencies": {
+    "gpu.js": "^2.16.0"
+  },
+  "keywords": [
+    "solana",
+    "vanity",
+    "address",
+    "generator",
+    "gpu",
+    "crypto"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
